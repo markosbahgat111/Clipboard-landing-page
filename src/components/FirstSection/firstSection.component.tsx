@@ -5,7 +5,7 @@ type Props = {}
 
 const FirstSectionComponent = (props: Props) => {
   return (
-      <div className='w-full'>
+      <div className='w-full mt-[100px]'>
           <div className='lg:w-1/2 w-10/12 m-auto text-center mb-40'>
                 <TopTitle>Keep track of your snippets</TopTitle>
                 <TopPara>Clipboard instantly, stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and Ios apps will help you organize everything</TopPara>

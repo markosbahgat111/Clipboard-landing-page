@@ -6,9 +6,9 @@ import twitter from 'assets/images/icon-twitter.svg';
 import instagram from 'assets/images/icon-instagram.svg';
 import './style.scss';
 
-type Props = {}
+interface Props {}
 
-const FooterComponent = (props: Props) => {
+const FooterComponent:React.FC<Props> = (props: Props) => {
   return (
     <div className="footer flex md:flex-row flex-col w-full md:h-[20vh] h-fit justify-evenly items-center md:gap-0 gap-16 py-10">
         <Logo src={logo} />

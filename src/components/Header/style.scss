@@ -1,11 +1,14 @@
 .main_container{
     background: url('../../assets/images/bg-header-desktop.png') no-repeat;
     background-size: contain;
-    
 }
 
 @media screen and (max-width:750px){
     .para{
         font-size: 18px !important;
+    }
+    .main_container{
+        background: url('../../assets/images/bg-header-mobile.png') no-repeat;
+        background-size: contain;
     }
 }
